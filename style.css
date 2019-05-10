@@ -1,0 +1,13 @@
+body {
+    background: grey;
+}
+
+.flex-image {
+    min-height: 100vh;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flex-image > img {
+    border: 1px solid white;
+}
