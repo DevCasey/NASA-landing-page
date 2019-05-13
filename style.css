@@ -10,17 +10,31 @@ body {
 }
 
 .flex-image {
+<<<<<<< HEAD
     padding-top: 100px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+=======
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+>>>>>>> 7240710a96dbe989562800ff7f9162e4b51e0dd3
 }
+
 
 .flex-image > img {
     border: 1px solid white;
+<<<<<<< HEAD
     height: auto;
     width: auto;
     max-width: 300px;
     max-height: 300px;
+=======
+    max-width: 25%;
+    max-height: 25%;
+    
+>>>>>>> 7240710a96dbe989562800ff7f9162e4b51e0dd3
 }
