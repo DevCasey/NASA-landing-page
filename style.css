@@ -1,40 +1,64 @@
 body {
-    background: grey;
+    background: url('background.jpg');
+    background-size: cover;
 }
 
 .header-container {
     display: flex;
     justify-content: center;
     font-size: 50px;
+    color: white;
 
 }
 
 .flex-image {
-<<<<<<< HEAD
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 500px;
+    width: 300px;
+    
+}
+
+/* .flex-image {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-=======
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
->>>>>>> 7240710a96dbe989562800ff7f9162e4b51e0dd3
+    justify-content: center;
+} */
+
+.nav-container {
+    background: url('nasa-image.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    margin-left: 25px;
+}
+
+.nav-container > a {
+    text-decoration: none;
+    padding-left: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.nav-container > a:hover {
+    color: blue;
 }
 
 
 .flex-image > img {
     border: 1px solid white;
-<<<<<<< HEAD
     height: auto;
     width: auto;
     max-width: 300px;
     max-height: 300px;
-=======
     max-width: 25%;
     max-height: 25%;
     
->>>>>>> 7240710a96dbe989562800ff7f9162e4b51e0dd3
 }
